@@ -551,11 +551,12 @@ z-index: -1;
     text-decoration: none;
 }
 @media (max-width:767px) {
-   .contact .info .label{
+   .contact .info .label
+   {
     font-size: 25px;
+   }.contact .info .link{
+     font-size: 18px;
    }
-.contact .info .link{
-        font-size: 18px;
 }
 .contact .info .social{
     display: flex;
@@ -582,3 +583,4 @@ z-index: -1;
 }
 
 /* End Footer */
+
